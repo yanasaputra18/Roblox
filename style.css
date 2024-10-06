@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#trailer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: aliceblue;
+}
+
+.intro img {
+  width: 80px;
+}
+
+.intro p {
+  font-family: "Madimi One", sans-serif;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+#btn {
+  font-family: "Madimi One", sans-serif;
+  font-size: 20px;
+  padding: 5px 50px;
+  background-color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 5px;
+  transition: 0.5s ease-in-out;
+}
+
+#btn:hover {
+  background-color: blue;
+  color: aliceblue;
+}
